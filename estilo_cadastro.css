@@ -1,0 +1,12 @@
+footer{
+    margin-top: 15px;
+    width: 100%;
+    text-align: center;
+    line-height: 100px;
+    background-color: #000;
+    color: #fff;
+    font-size: 20px;
+}
+th, td {
+    padding: 15px;
+  }
