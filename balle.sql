@@ -42,9 +42,6 @@ CREATE TABLE `cadastroagenda6` (
 -- Extraindo dados da tabela `cadastroagenda6`
 --
 
-INSERT INTO `cadastroagenda6` (`codigo`, `nome`, `email`, `cidade`, `estado`, `cep`, `sexo`, `cartao_credito`) VALUES
-(5, 'sdfsdfsdf', 'rafaella_ballerini@hotmail.com', 'werwerwe', 'SC', '22323-232', 'feminino', 'elo');
-
 --
 -- Índices para tabelas despejadas
 --
