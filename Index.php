@@ -16,11 +16,20 @@ $PDO = conecta_bd();
   <body>
     <section>
         <div class="jumbotron">
-            <h1 class="display-3">Menu de Cadastro</h1>
-            <p class="lead">Lista completa dos cadastros realizados</p>
+            <h1 class="display-3">
+              Menu de Cadastro
+            </h1>
+            <p class="lead">
+              Lista completa dos cadastros realizados
+            </p>
             <hr class="my-1">
+        </div>
     </section>
-    <p><a href="Formulario.html">Novo Cadastro</a></p>
+    <p>
+      <a href="Formulario.html">
+        Novo Cadastro
+      </a>
+    </p>
 
     <?php
     $stmt_count = $PDO->prepare("SELECT COUNT (nome) FROM cadastroagenda6");
